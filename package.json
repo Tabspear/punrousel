@@ -77,9 +77,10 @@
   },
   "scripts": {
     "start": "npm run dev && node index.js",
-    "dev": "postcss layouts/styles/tailwind.css -o layouts/styles/style.css --watch",
+    "dev": "npx tailwindcss -i layouts/styles/tailwind.css -o layouts/styles/style.css --watch",
     "prod": "postcss layouts/styles/tailwind.css -o layouts/styles/style.css --minify"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tabspear/punrousel.git"

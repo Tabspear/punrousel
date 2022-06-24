@@ -8,11 +8,15 @@ module.exports = {
       current: 'currentColor',
       'white': '#ffffff',
       'black': '#000000',
-      'red': '#E50914',
-      'dark':"#303030",
-      'bodark': "#222"
+      'red': '#db0000',
+      'dark':"#564d4d",
+      'darkred': "#831010"
     },
-    extend: {},
+    extend: {
+      textDecorationThickness: {
+        3: '10px',
+      }
+    },
   },
   plugins: [],
 }
