@@ -723,11 +723,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -735,11 +730,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-darkred {
-  --tw-text-opacity: 1;
-  color: rgb(131 16 16 / var(--tw-text-opacity));
 }
 
 .decoration-3 {
