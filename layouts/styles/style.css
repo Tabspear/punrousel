@@ -410,11 +410,6 @@ video {
   height: auto;
 }
 
-* {
-  scrollbar-color: initial;
-  scrollbar-width: initial;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -556,28 +551,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
 .bottom-0 {
   bottom: 0px;
-}
-
-.left-0 {
-  left: 0px;
 }
 
 .my-auto {
@@ -590,6 +569,11 @@ video {
   margin-right: 1rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-11 {
   margin-top: 2.75rem;
 }
@@ -598,12 +582,12 @@ video {
   margin-top: 2.5rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
-.block {
-  display: block;
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .inline-block {
@@ -614,36 +598,36 @@ video {
   display: flex;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-64 {
   height: 16rem;
 }
 
-.h-10 {
-  height: 2.5rem;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-screen {
   width: 100vw;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .max-w-xs {
   max-width: 20rem;
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.snap-x {
-  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .snap-center {
@@ -692,6 +676,11 @@ video {
   background-color: rgb(86 77 77 / var(--tw-bg-opacity));
 }
 
+.bg-darkred {
+  --tw-bg-opacity: 1;
+  background-color: rgb(131 16 16 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -718,9 +707,18 @@ video {
   vertical-align: middle;
 }
 
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
@@ -769,15 +767,6 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
 }
 
 .hover\:scale-50:hover {

@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode : "jit",
   content: ["./layouts/*.html",
-            "./layouts/*.js"],
+            "./layouts/js/*.js"],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -15,11 +16,11 @@ module.exports = {
     extend: {
       textDecorationThickness: {
         3: '10px',
-      }
-    },
+      },
   },
+
   plugins: [
-    require('tailwind-scrollbar'),
-    require ('tailwind-scrollbar-hide')
+    require('tailwind-scrollbar-hide')
   ],
+},
 }
