@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../layouts/styles/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../layouts/styles/animation.css">
+    <script defer src="./js/main.js"></script>
+    <title>Punrousel</title>
   </head>
-  <body class="bg-black min-height-screen">
+  <body class="bg-black min-h-screen">
+    <!-- Start of Navbar -->
     <nav class="bg-dark w-screen">
       <div class="flex justify-between text-white p-3">
         <div
@@ -89,271 +92,38 @@
       </div>
     </nav>
 
+    <!-- End of footer -->
 
+      <!-- Main Section -->
     <section class="mt-11">
       <h1 class="text-white text-4xl">Twitter Digital Pundits</h1>
-      <div
-        class="flex overflow-x-scroll scrollbar-hide  w-screen mt-10"
-      >
-        <!-- Start of image jumbrotron -->
-        <div
-          id="display_window_top"
-    
-        ></div>
+      
+      <div class="flex mx-auto justify-evenly">
+        <div class="bg-darkred w50 h-50 text-center text-white font-mono scale-up-hor-left p-3 text-2xl" id="name">
 
-        <!-- Start of Carousel -->
-        <div class="relative flex snapg-x">
-          <div
-            class="inline-block snap-always snap-center ml-4 transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Ale - Copy.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform- transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Brad Travesy - Copy.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Danny Thompson - Copy.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Kacie Ahmed - Copy.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Kyle Prinsloo - Copy.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Leon Noel.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Moshfegh Hamedani - Copy.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Swapna Kumar Panda.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Taylor Poindexter - Copy.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Teneika Askew - Copy.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Yuri Lee - Copy.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Akanksha Choudhary.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Pratham.jpg"
-              alt=""
-              class="block object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/George Moller.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Casba Kissi.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Simon Hoiberg.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Marc Backes.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Mina D.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Francesco Ciulla.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Ras.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Rojhan (Ro) Paydar.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Danny.png"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Eddie.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Shasi - Copy.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Tanay.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center ml-4 transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Lucian.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
-          <div
-            class="inline-block snap-always snap-center transform transition duration-150 hover:scale-50 shadow-2xl shadow-red"
-          >
-            <img
-              src="./img/Junaid.jpg"
-              alt=""
-              class="object-cover object-center w-64 h-64 rounded-lg max-w-xs"
-            />
-          </div>
         </div>
+        <div>
+          <img src="" alt="" class="w-50 h-50" id="image_r">
+        </div>
+      </div>
+   
+      <div
+        class="flex overflow-x-scroll overflow-visible scrollbar-hide  w-screen mt-10"
+      >
+        <!-- Start of Carousel -->
+        <div class="relative flex snapg-x cursor-pointer" id="carousel-container">
+
+          </div>
+      
         <!-- End of Carousel -->
       </div>
     </section>
+     <!-- End of Main Section -->
 
     <!-- start of footer -->
+    <audio src="" id="pundio"></audio>
 
-    <footer class="absolute bottom-0 bg-dark h-10 w-full p-2">
+    <footer class=" bottom-0 bg-dark h-10 w-full p-2 mt-5">
       <div class="flex justify-center align-middle">
         <p class="text-center font-bold hover:text-darkred text-white">
           <a href="https://www.linkedin.com/in/taofeek-badmus">&copy; Taofeek Badmus June 2022</a>
@@ -361,5 +131,6 @@
         </p>
       </div>
     </footer>
+    <!-- end of footer -->
   </body>
 </html>
