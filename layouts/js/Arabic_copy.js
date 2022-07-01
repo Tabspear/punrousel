@@ -240,9 +240,9 @@ const pundit = [
   
   const showBigCarousel = (item) => {
     let name = document.getElementById("name");
-    name.innerHTML = `<p class= focus-in-expand>Name: ${item.name}</p>
-                      <p class= focus-in-expand><a href="${item.link}" target="_blank" rel =" norefferer noopener"> Click me: I will lead to their profile</a></p> 
-                      <p class= focus-in-expand>Role:${item.role}</p>
+    name.innerHTML = `<p class= focus-in-expand> الإسم:${item.name}</p>
+                      <p class= focus-in-expand><a href="${item.link}" target="_blank" rel =" norefferer noopener"> أنقر هنا:تجد معلومات الشخصية</a></p> 
+                      <p class= focus-in-expand>دور: ${item.role}</p>
                       `;
   
     let upperImage = document.getElementById('image_r')
