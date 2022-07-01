@@ -252,4 +252,18 @@ const pundit = [
     player.src = `${item.audio}`
     player.play()
   };
+
+  let lang = document.getElementById('toggle')
+  lang.addEventListener("click", changeLan)
   
+  function changeLan() {
+    if(lang.innerHTML==="EN"){
+      window.location='/layouts/index.html';
+      window.location.href='/layouts/index.html';
+    }
+    else {
+      lang.innerHTML="AR";
+      window.location='/layouts/Arabic_index.html';
+      window.location.href= '/layouts/Arabic_index.html';  
+    }
+  }
