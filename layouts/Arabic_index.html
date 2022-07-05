@@ -9,7 +9,7 @@
     <script defer src="./js/Arabic_copy.js"></script>
     <title>Punrousel</title>
   </head>
-  <body class="bg-black min-h-screen">
+  <body class="bg-black relative min-h-screen">
     <!-- Start of Navbar -->
     <nav class="bg-dark w-screen" lang="ar">
       <div class="flex justify-between text-white p-3">
@@ -25,7 +25,7 @@
           <div
             class="mx-4 hover:underline decoration-3 hover:text-darkred transition duration-300 ease-in-out"
           >
-            <a href="">Punrousel 2</a>
+            <a href="/layouts/punrousel2.html">Punrousel 2</a>
           </div>
           <div
             class="hover:underline decoration-3 hover:text-darkred transition duration-300 ease-in-out"
@@ -96,7 +96,7 @@
     <!-- End of footer -->
 
       <!-- Main Section -->
-    <section class="mt-11">
+    <section class="mt-11 pb-10">
       <h1 class="text-white text-2xl mb-3">  مطور  برمجيات المشهور عبر تويتر</h1>
       
       <div class="flex mx-auto justify-evenly">
@@ -118,22 +118,26 @@
       
         <!-- End of Carousel -->
       </div>
+      <audio src="" id="pundio"></audio>
+
     </section>
      <!-- End of Main Section -->
 
     <!-- start of footer -->
-    <audio src="" id="pundio"></audio>
+   
+    <footer class="absolute bottom-0 bg-dark h-10 w-full p-2 mt-5">
+      <div class="flex justify-between align-middle">
 
-    <footer class=" bottom-0 bg-dark h-10 w-full p-2 mt-5">
-      <div class="flex justify-center align-middle">
+        <div>
+          <p class="text-center font-bold hover:text-darkred text-white" id="toggle">EN</p>
+        </div>
+
         <p class="text-center font-bold hover:text-darkred text-white">
           <a href="https://www.linkedin.com/in/taofeek-badmus">&copy; Taofeek Badmus June 2022</a>
           
         </p>
       </div>
-      <div>
-        <p class="text-white" id="toggle">EN</p>
-      </div>
+ 
     </footer>
     <!-- end of footer -->
   </body>

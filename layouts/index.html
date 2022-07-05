@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../layouts/styles/style.css" />
-    <link rel="stylesheet" href="../layouts/styles/animation.css">
+    <link rel="stylesheet" href="../layouts/styles/animation.css" />
     <script defer src="./js/main.js"></script>
     <title>Punrousel</title>
   </head>
-  <body class="bg-black">
+  <body class="bg-black relative min-h-screen">
     <!-- Start of Navbar -->
     <nav class="bg-dark w-screen">
       <div class="flex justify-between text-white p-3">
@@ -24,7 +24,7 @@
           <div
             class="mx-4 hover:underline decoration-3 hover:text-darkred transition duration-300 ease-in-out"
           >
-            <a href="">Punrousel 2</a>
+            <a href="/layouts/punrousel2.html">Punrousel 2</a>
           </div>
           <div
             class="hover:underline decoration-3 hover:text-darkred transition duration-300 ease-in-out"
@@ -87,51 +87,56 @@
                     result="shape"
                   />
                 </filter>
-              </defs></svg></a>
+              </defs></svg ></a>
         </div>
       </div>
     </nav>
 
     <!-- End of footer -->
 
-      <!-- Main Section -->
-    <section class="mt-9">
+    <!-- Main Section -->
+    <section class="mt-9 pb-10">
       <h1 class="text-white text-4xl mb-4">Twitter Digital Pundits</h1>
-      
-      <div class="flex mx-auto justify-evenly mt-2">
-        <div class="bg-darkred w50 h-50 text-center text-white font-mono scale-up-hor-left p-3 text-2xl" id="name">
 
-        </div>
+      <div class="flex mx-auto justify-evenly mt-2">
+        <div
+          class="bg-darkred w50 h-50 text-center text-white font-mono scale-up-hor-left p-3 text-2xl"
+          id="name"
+        ></div>
         <div>
-          <img src="" alt="" class="w-50 h-50" id="image_r">
+          <img src="" alt="" class="w-50 h-50" id="image_r" />
         </div>
       </div>
-   
+
       <div
-        class="flex overflow-x-scroll overflow-visible scrollbar-hide  w-screen mt-10"
+        class="flex overflow-x-scroll overflow-visible scrollbar-hide w-screen mt-10"
       >
         <!-- Start of Carousel -->
-        <div class="relative flex snapg-x cursor-pointer" id="carousel-container">
+        <div
+          class="relative flex snapg-x cursor-pointer"
+          id="carousel-container"
+        ></div>
 
-          </div>
-      
         <!-- End of Carousel -->
       </div>
+      <audio src="" id="pundio"></audio>
     </section>
-     <!-- End of Main Section -->
+    <!-- End of Main Section -->
 
     <!-- start of footer -->
-    <audio src="" id="pundio"></audio>
+    
 
-    <footer class="bottom-0 bg-dark h-10 w-full p-2 mt-5">
-      <div class="flex justify-center align-middle">
+    <footer class="absolute bottom-0 bg-dark h-10 w-full p-2 mt-5">
+      <div class="flex justify-between align-middle">
         <p class="text-center font-bold hover:text-darkred text-white">
-          <a href="https://www.linkedin.com/in/taofeek-badmus">&copy; Taofeek Badmus June 2022</a>
-          
+          <a href="https://www.linkedin.com/in/taofeek-badmus"
+            >&copy; Taofeek Badmus June 2022</a
+          >
         </p>
-      </div>
-      <div>
-        <p class="text-white" id="toggle">AR</p>
+
+        <div>
+          <p class="text-center font-bold hover:text-darkred text-white" id="toggle">AR</p>
+        </div>
       </div>
     </footer>
     <!-- end of footer -->
