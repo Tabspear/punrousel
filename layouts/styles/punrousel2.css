@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.main_section {
+    display: flex;
+    flex-direction: row;
+    width: 300%;
+    overflow: visible;
+    position: relative;
+}
+
+.carousel_img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel_img:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+
+#forward {
+ position: fixed;
+ top: 50%;
+ right: 0;
+ color: wheat;
+ transform: translateY(-50%)
+
+}
+
+#back {
+ position: fixed;
+top: 50%;
+left: 0;
+transform: translateY(-50%)
+   }
