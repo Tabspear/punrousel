@@ -33,7 +33,6 @@ const loadBooks = ()=>{
         
     })
 
-    console.log("Taofeek")
 
     }
 

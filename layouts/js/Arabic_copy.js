@@ -247,7 +247,6 @@ const pundit = [
   
     let upperImage = document.getElementById('image_r')
     upperImage.src = `${item.src}`;
-    console.log(item)
     let player = document.getElementById('pundio');
     player.src = `${item.audio}`
     player.play()
