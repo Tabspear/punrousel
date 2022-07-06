@@ -257,8 +257,8 @@ const pundit = [
   
   function changeLan() {
     if(lang.innerHTML==="EN"){
-      window.location='/layouts/index.html';
-      window.location.href='/layouts/index.html';
+      window.location='/index.html';
+      window.location.href='/index.html';
     }
     else {
       lang.innerHTML="AR";
