@@ -80,7 +80,7 @@
   "scripts": {
     "start": "npm run dev && node index.js",
     "dev": "npx tailwindcss -i layouts/styles/tailwind.css -o layouts/styles/style.css --watch",
-    "prod": "npx tailwindcss -i layouts/styles/tailwind.css -o layouts/styles/style.css --minify"
+    "prod": "npx postcss -i layouts/styles/tailwind.css -o layouts/styles/style.css --minify"
   },
   "type": "module",
   "repository": {
